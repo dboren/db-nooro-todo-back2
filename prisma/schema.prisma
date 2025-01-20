@@ -12,3 +12,12 @@ datasource db {
 generator client {
   provider = "prisma-client-js"
 }
+
+model Task {
+  id        Int      @id @default(autoincrement())
+  title     String
+  color     String   // red, blue, green, etc.
+  completed Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
