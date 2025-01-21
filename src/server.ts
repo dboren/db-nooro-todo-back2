@@ -1,10 +1,14 @@
 import express, { Request, Response } from "express";
 import { PrismaClient } from "@prisma/client";
 import TaskRoutes from "./routes/taskRoutes";
+const cors = require('cors');
 
 export const prisma = new PrismaClient();
 
 const app = express();
+
+app.use(cors());
+
 const port = 8080;
 
 async function main() {
