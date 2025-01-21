@@ -1,6 +1,6 @@
 import express, { Request, Response } from "express";
 import { PrismaClient } from "@prisma/client";
-// import TaskRouter from "./routes/taskRoutes.ts;
+import TaskRoutes from "./routes/taskRoutes";
 
 export const prisma = new PrismaClient();
 
@@ -11,7 +11,7 @@ async function main() {
   app.use(express.json());
 
 //   Register API routes, need to set up route file first
-//   app.use("/api/v1/task", taskRouter);
+  app.use("/api/v1/task", TaskRoutes);
 
   // Catch unregistered routes
   app.all("*", (req: Request, res: Response) => {
