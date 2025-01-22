@@ -1,4 +1,4 @@
-# Prisma Backend Daniel Boren's submission for Todo App assignment
+# Prisma Backend of Daniel Boren's submission for Todo App assignment
 
 ## Overview
 This app allows users to create and manage a todo list by creating, viewing, and deleting tasks. This repo contains the Prisma/Express based backend/server component of the app.
@@ -35,4 +35,4 @@ heroui - Additional styling elements
 
 This repo can be found at https://github.com/dboren/db-nooro-todo-back2.
 
-The repo for the frontend of the app can be found at 
+The repo for the frontend of the app can be found at https://github.com/dboren/db-nooro-todo-front
