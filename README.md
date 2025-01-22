@@ -20,13 +20,13 @@ You will now be vewing the homepage of the app.
 <br>
 
 ## Tech Stack
-Express.js - server, GET & POST routes,
-Prisma - ORM for database interaction,
-MySQL - database,
+Express.js - server, GET & POST routes
+Prisma - ORM for database interaction
+MySQL - database
 
 (Frontend below)
-next.js - react-based framework,
-tailwind - styling,
+next.js - react-based framework
+tailwind - styling
 axios - utilized to make calls to the server
 heroui - Additional styling elements
 
